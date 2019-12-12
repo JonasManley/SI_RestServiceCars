@@ -10,7 +10,10 @@ namespace SiRestServiceMirocservices.Controllers
 {
     public class ValuesController : ApiController
     {
-        // GET api/values
+        /// <summary>
+        /// GET api/values
+        /// </summary>
+        /// <returns>all the different car available</returns>
         public List<Car> Get()
         {
             return DataStorage.CarList;
